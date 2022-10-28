@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("https://s2.glbimg.com/lMKi121qPBob_sVWzWb6YxkTBL8=/e.glbimg.com/og/ed/f/original/2019/11/14/sky-night-milky-way-cosmos-atmosphere-space-darkness-galaxy-meteor-nebula-outer-space-astronomy-stars-universe-milkyway-nightsky-astrophotography-cosmic-astronomical-object-meteoroid-537393.jpg");
+    background-size:100%;
+    background-color: black;
+padding: 20px ;
+}
+
+.box{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    
+}
+
+    
+nav a:hover{
+    color:  #c78c19;
+    text-decoration: underline;
+
+}
+body{
+    background-color:bisque;
+}
+
+footer{
+    text-align: center;
+    background: url("./bg.jpg");
+    padding: 40px 0;
+}
+.photo{
+    width: 30vh;
+    height: 30vh;
+
+}
+.copyright{
+    color: #cccc;
+    background-size: cover;
+    font-size: 20px;
+    margin-top: 20px;
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+}
+form label, form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    border: 2px solid black;
+    width: 50%;
+    border-radius: 30px;
+}
+.checkbox{
+    margin: 20px 0;
+}
+#radio-whatsapp, #radio-email, #radio-telefone{
+margin-right: 10px;
+}
+.enviar{
+    width: 30%;
+    padding: 15px 0;
+    border-radius: 30px;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 2s background;
+    cursor: pointer;
+}
+.enviar:hover{
+ background-color: blue;
+}

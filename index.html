@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contatos</title>
+</head>
+<body>
+   <header>
+    <div class="box">
+    <h1><img src="logo-branco.png" alt="logo" srcset=""></h1> 
+    <div class="Terra">
+        
+    </div>
+   
+    <nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Produtos</a></li>
+        <li><a href="#">Contatos</a></li>
+    </ul>
+    </nav>
+</div>
+   </header>
+   <main>
+    <form action="">
+        
+            <label for="Nome Completo"><strong>Nome Completo:</strong></label>
+            <input type="text" id="Nome Completo" placeholder="Nome Completo" class="input-padrao" required>
+        
+            <label for="Email"><strong> Email:</strong></label>
+            <input type="email" id="Email" placeholder="Email"class="input-padrao" required>
+        
+            <label for="Telefone"><strong> Telefone:</strong></label>
+            <input type="tel" id="Telefone" placeholder="Telefone"class="input-padrao" required>
+
+            <label for="Mensagem"><strong> Mensagem:</strong></label>
+            <textarea name="Mensagem" id="Mensagem" cols="30" rows="10" placeholder="Digite Aqui" class="input-padrao" required></textarea> 
+
+            <div class="">
+             <p><strong>Preferência de contato?</strong></p>
+            <label for="radio-email"><input type="radio" name = "Contato"value="email" id="radio-email"><strong>Email</strong></label>
+            
+        
+            <label for="radio-telefone"><input type="radio" name="Contato" value="Telefone" id="radio-telefone"><strong>Telefone</strong></label>
+            
+        
+            <label for="radio-whatsapp" checked><input type="radio" name="Contato"value="Whatsapp" id="radio-whatsapp"><strong>Whatsapp</strong></label>
+            
+        </div>
+        <div class="div">
+         <p><strong>Selecione seu horário: </strong></p>
+        <select>
+            <option value="">Selecione</option>
+            <option value="">Manhã</option>
+            <option value="">Tarde</option>
+            <option value="">Noite</option>
+  </select>
+</div>
+        
+        <label for="" class="checkbox" required ></label><input type="checkbox" checked><strong>Gostaria de receber nossas novidades por email?</strong></label>
+        <br><br>
+            <input type="submit" class="enviar" value="Enviar formulário">
+        
+    </form>
+    
+   </main>
+   <footer>
+    <img src="./barber-animate.svg" alt="logo Imperial" srcset="" class="photo">
+    <p class="copyright">&copy; Copyright Imperial</p>
+   </footer>
+</html>
